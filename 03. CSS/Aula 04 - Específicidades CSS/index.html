@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificidade CSS</title>
+  <style>
+    /* 0.0.0.1 */
+    p {
+      color:red;
+    }
+    /* 0.0.1.1 */
+    .nova-cor {
+      color:cornflowerblue;
+    }
+    /* 0.1.1.1 */
+    #nova-cor-id-1,#nova-cor-id-2 {
+      color:darkgray;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Especificidade</h1>
+  <p>Estrutura do código</p>
+  <p>No css temos graus de importância e o grau maior é o 1000</p>
+  <p>0 (inline) 0 (id) 0 (class) 0 (tags)</p>
+  <!--Link da aula: https://www.youtube.com/watch?v=LxpU5pQO5mE&list=PLMy95_4XE08MRsQvaSQnHzyooNevGTNtS&index=27-->
+
+  <h2>Pratica</h2>
+  <p>Texto 1</p>
+  <p class="nova-cor">Texto 2</p>
+  <p class="nova-cor">Texto 3</p>
+  <p id="nova-cor-id-1" class="nova-cor">Texto 4</p>
+  <!--1.1.1.1-->
+  <p id="nova-cor-id-2" class="nova-cor" style="color:darkseagreen">Texto 5</p>
+  <p>Texto 6</p>
+</body>
+</html>

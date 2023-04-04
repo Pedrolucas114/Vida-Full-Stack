@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>
+  <style>
+    body {
+      background: red;
+      color:white;
+      font-size: 30px;
+    }
+
+    p {
+      display:none;
+    }
+
+    @media (max-width: 500px) {
+      body {
+        background: royalblue;
+      }
+    }
+
+    @media (max-width:320px) {
+      body {
+        font-size:20px;
+        background: purple;
+      }
+
+      p {
+        display:block;
+      }
+    }
+  </style>
+</head>
+<body>
+  Texto:
+  <p>Texto 2</p>
+  O max-width funciona como um braking point. "Até tal px, vai acontecer isso". O css responsive visa otimizar o site para os diversos tipos de telas ou dispositivos.
+</body>
+</html>

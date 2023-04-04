@@ -1,0 +1,12 @@
+<div> </>div> é um container genérico para o conteúdo. É usado sempre quando vamos montar o layout em elementos genéricos que não são usados a sintaxe. Usado para algo genérico.
+
+ex:
+
+<div id="listagem-principal" class ="container">
+	<ul>
+		<li> Listagem 1</>
+		<li> Listagem 2</>
+		<li> Listagem 3</>
+		<li> Listagem 4</>
+	</ul>
+</div>

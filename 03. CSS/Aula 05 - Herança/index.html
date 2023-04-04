@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herança</title>
+  <style>
+    article {
+      font-size: 20px;
+      color: blue;
+    }
+
+    article section article p {
+      color:red;
+    }
+
+  </style>
+</head>
+<body>
+  <article> ---> Pai
+    <p>Texto Pai</p> Texto Pai
+    <section>
+      <p>Texto Filho</p>
+
+      <ul> ---> Lista Filho
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+
+      <div>
+        <p>Texto Neto</p> ---> Texto Filho
+      </div>
+    </section>
+  </article>
+
+  <h1>Na prática</h1>
+
+  <article>
+    Deu bronca nos filhos
+    <section>
+      <p>Filha</p>
+
+      <article>
+        <p>Filho da filha</p>
+      </article>
+    </section>
+
+    <section>
+      <p>Filho</p>
+      
+      <article>
+        <p>Filho da filha</p>
+      </article>
+    </section>
+  </article>
+</body>
+</html>

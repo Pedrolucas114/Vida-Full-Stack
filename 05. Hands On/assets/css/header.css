@@ -1,0 +1,28 @@
+header {
+  width: 1024px;
+  /*largura*/
+  margin: 0 auto;
+  /*margem automática*/
+
+  display:flex;
+  /*todos os elementos (logo e menu) dentro da header irão ficar ao lado do outro*/
+  flex-direction: row;
+  /*deixar na horizontal*/
+  justify-content: space-between;
+  /*dividir os elementos com espaços iguais até o final do box*/
+  align-items: center;
+  /*alinhas e centralizar os dos itens da header (logo e menu)*/
+}
+
+header nav ul {
+  /*entrando na nav dentro da header e na ul dentro da nav*/
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /*retirar as bolinhas*/
+}
+
+header nav ul li {
+  padding: 0 15px;
+  /*espaçamento dos itens dentro da ul (li)*/
+}

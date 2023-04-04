@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Visibilidade CSS</title>
+  <style>
+    p {
+      color: red;
+    }
+
+    span {
+      display:block;
+    }
+
+    p.exp-1 {
+      display:block;
+    }
+    p.exp-2 {
+      display:inline;
+    }
+    p.exp-3 {
+      display:inline-block;
+    }
+    
+    .aparecer:hover p.exp-4 {
+      display:block;
+    }
+
+    /*
+    - hover: quando passar o mouse acima de alguma coisa, faça tal coisa
+    - quando passar o mouse acima de aparecer a classe a partir de p.exp-4 irá ganhar um display block
+    */
+
+    p.exp-4 {
+      display:none;
+    }
+
+  </style>
+</head>
+<body>
+  <p>O display serve para apresentar no nosso html a div ou p de uma determinada forma, deixando o código mais elaborado.</p>
+  <span>
+    abc
+  </span>
+
+  <!--1) Quebra a linha (display:block)-->
+  <p class="exp-1">
+    Texto 1
+  </p>
+
+  <!--2) Deixa na mesma linha (display:inline)-->
+  <div>
+    Texto 2 abc
+  <p class="exp-2">
+    Texto 2
+  </p>
+  Texto 2 abc
+</div>
+
+  <!--3) Deixa na mesma linha e quebra (display:inline-block)-->
+  <div>
+    Texto 3 abc
+  <p class="exp-3">
+    Texto 3
+  </p>
+  Texto 3 abc
+  </div>
+
+    <!--4) Oculta o display (display:none)-->
+    <div class="aparecer">
+      aparecer
+  <p class="exp-4">
+    Texto 4
+  </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+<body>
+  <h1>Formulários</h1>
+  <p>utiliza a tag "form" junto com outras como "input", "textarea", "button", "select" e etc.</p>
+  <hr>
+  <h2>Na prática</h2>
+  <hr>
+
+  <form>
+    <div>
+    <label for="name"> Name 
+       <input type="text" id="Name" value="Pedro Lucas">
+    </label>
+    </div>
+
+    <br>
+    <div>
+    <label for="email"> Email
+        <input type="email" id="email" required/>
+    </label>
+    </div>
+
+    <br>
+    <div>
+    <label>
+     <input type="radio" name="preco" value="150"> R$ 150,00
+    </label>
+
+    <label>
+     <input type="radio" name="preco" value="200"> R$ 200,00
+    </label>
+
+    <label>
+     <input type="radio" name="preco" value="250"> R$ 250,00
+    </label>
+
+    <label>
+     <input type="radio" name="name" value="300"> R$ 300,00
+    </label>
+    </div>
+    
+    <br>
+    <div>
+    <input type="checkbox" name="variosprecos" value="150"> R$ 150,00
+    <input type="checkbox" name="variosprecos" value="200"> R$ 200,00
+    <input type="checkbox" name="variosprecos" value="250"> R$ 250,00
+    <input type="checkbox" name="variosprecos" value="300"> R$ 300,00
+    </div>
+
+    <div>
+    <label>
+      <br>
+      Selecione o time de futebol <br>
+      <select>
+          <option value="" selected>Selecione um Time</option>
+          <br>
+          <option value="Palmeiras">Palmeiras</option>
+          <option value="São Paulo">São Paulo</option>
+          <option value="Vasco">Vasco</option>
+          <option value="Corinthias">Corinthias</option>
+      </select>
+    </label>
+    </div>
+
+    <br>
+
+    <div>
+      <label>Digite seu comentário <br>
+      <textarea>
+
+      </textarea>
+     </label>
+    </div>
+    <button>Enviar Formulário</button>
+
+    <p> - A div permite que um fique a baixo do outro;</p>
+    <p> - o "radio" permite selecionar apenas um valor, já o "checkbox" permite selecionar vários;</p>
+    <p> - Só será possível selecionar mais de um na radio se os "name" forem diferentes.</p>
+
+  </form>
+  
+</body>
+</html>

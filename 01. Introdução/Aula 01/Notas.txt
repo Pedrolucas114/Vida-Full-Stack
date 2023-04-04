@@ -1,0 +1,40 @@
+Usar o terminal para linkar o VSCODE com o GIT
+
+"git init" TEM NO GITHUB (CÓDIGO)
+- Utilizei para dar start no git na pasta "Aulas" no pc (iniciada no VSCODE)
+
+"ls" 
+- Utilizei para localizar todos os arquivos/pastas presentes na Pas aula
+
+"cd aula 01"
+- Utilizei para escolher a pasta aula 01 presente dentro de aulas
+
+"git status"
+- Utilizado para mostrar todos os arquivos que sofreram alterações
+
+"git add ." TEM NO GITHUB (CÓDIGO)
+- Pega todos os arquivos alterados e adiciona em determinado local que irá salvar os arquivos para fazer outros processos
+- o "." é para selecionar todos de uma vez, mas vc pode escolher manualmente
+
+"git commit -m "First Commit"" TEM NO GITHUB (CÓDIGO)
+- Add todos os arquivos alterados para First Commit
+- saber que mestá mechendo e qual conta está sendo utilizada
+
+  git config --global user.email "pedro114lucas@gmail.com"
+  git config --global user.name "Pedrolucas114"
+
+	- Deixar apenas um registro dos arquivos
+
+"git remote add origin https://github.com/Pedrolucas114/Aula-1.git"
+- Sempre que estivermos nesse ambiente, transferir os arquivos para o GitHub
+
+"git remote add origin https://github.com/Pedrolucas114/AULA-01.git
+>> git branch -M main
+>> git push -u origin main"
+- Utilizado para upar o arquivo na main do Github
+
+
+"git add ."
+"git commit -m "Add novo parágrafo""
+"git push"
+- Tais comandos são utilizados para informar atualização do código

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Radius</title>
+  <style>
+    .box1 {
+      width: 200px;
+      height: 200px;
+      background:pink;
+
+      border-radius:50px 50px 50px 50px;
+      border: 5px solid red;
+    }
+
+    .box2 {
+      width: 200px;
+      height: 200px;
+      background:orange;
+      position:absolute;
+      right:150px;
+      
+      border-radius:50%;
+      border: 5px solid blue;
+
+      transition: all 0.5s;
+    }
+
+    .box2:hover{
+      border-radius:0%;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Border Radius</h1>
+  <p>Serve para efetuar a manipulação de bordas</p>
+  <p>É possível fazer uma animação. Quando passa o mouse sobre a box 2, todas as bordas somem.</p>
+  <div class="box1">
+  <div class="box2">
+  </div>
+</div>
+</body>
+</html>
