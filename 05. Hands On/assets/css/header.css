@@ -1,8 +1,8 @@
 header {
   width: 1024px;
   /*largura*/
-  margin: 0 auto;
-  /*margem automática*/
+  margin: 30px auto;
+  /*margem do cabeçário*/
 
   display:flex;
   /*todos os elementos (logo e menu) dentro da header irão ficar ao lado do outro*/
@@ -18,11 +18,13 @@ header nav ul {
   /*entrando na nav dentro da header e na ul dentro da nav*/
   display: flex;
   flex-direction: row;
+  align-items: center;
   list-style: none;
   /*retirar as bolinhas*/
 }
 
-header nav ul li {
-  padding: 0 15px;
+header nav ul li a{
+  margin: 0 15px;
   /*espaçamento dos itens dentro da ul (li)*/
+  color:#3399CC
 }

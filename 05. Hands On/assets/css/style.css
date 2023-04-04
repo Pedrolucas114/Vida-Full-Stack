@@ -1,13 +1,21 @@
-@import "header.css";
-/*Usado para não precisar colocar outro link no html*/
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
+/*Usado para não precisar colocar outro link no html*/
+@import "header.css";
+
+/*Importando o css do botão*/
+@import "button.css";
+ 
 *{
- /*RESETAR O CSS*/
+  /*RESETAR O CSS*/
   margin: 0;
   padding:0;
   border:0;
   font-size:100%;
+  font-family: 'Source Sans Pro', sans-serif;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 
