@@ -1,0 +1,3 @@
+commit and push para sincronizar do local com o github
+
+sync para sincronizar do github com o local
