@@ -1,12 +1,12 @@
-header {
-  width: 1024px;
-  /*largura*/
+header section {
+  /*width: 1024px;
+  largura
   margin: 30px auto;
-  /*margem do cabeçário*/
+  margem do cabeçário*/
 
-  display:flex;
+  /*display:flex;
   /*todos os elementos (logo e menu) dentro da header irão ficar ao lado do outro*/
-  flex-direction: row;
+  /*flex-direction: row;
   /*deixar na horizontal*/
   justify-content: space-between;
   /*dividir os elementos com espaços iguais até o final do box*/
