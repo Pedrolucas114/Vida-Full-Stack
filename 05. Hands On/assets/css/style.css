@@ -3,6 +3,7 @@
 
 /*Usado para não precisar colocar outro link no html*/
 @import "header.css";
+@import "main.css";
 
 /*Importando o css do botão*/
 @import "button.css";
@@ -14,7 +15,7 @@
   border:0;
   font-size:100%;
   font-family: 'Source Sans Pro', sans-serif;
-  font: inherit;
+  font-weight: 300;
   vertical-align: baseline;
   text-decoration: none;
 }
