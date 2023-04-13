@@ -4,6 +4,7 @@
 /*Usado para não precisar colocar outro link no html*/
 @import "header.css";
 @import "main.css";
+@import "footer.css";
 
 /*Importando o css do botão*/
 @import "button.css";
@@ -18,6 +19,13 @@
   font-weight: 300;
   vertical-align: baseline;
   text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url("../Imagens/bolha-background.png");
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .container{
