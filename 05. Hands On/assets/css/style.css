@@ -1,42 +1,10 @@
 /*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
-/*Usado para não precisar colocar outro link no html*/
 @import "header.css";
 @import "main.css";
 @import "footer.css";
-@import "responsive.css";
-
-/*Importando o css do botão*/
+@import "responsive-background.css";
 @import "button.css";
- 
-*{
-  /*RESETAR O CSS*/
-  margin: 0;
-  padding:0;
-  border:0;
-  font-size:100%;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  vertical-align: baseline;
-  text-decoration: none;
-  list-style: none;
-}
-
-body {
-  background-image: url("../Imagens/bolha-background.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
-.container{
-  width: 1024px;
-  margin: 30px auto;
-  display:flex;
-  flex-direction: column;
-}
-
-.row{
-  flex-direction: row;
-  display:flex;
-}
+@import "bootstrap.css";
+@import "responsive-elements.css";
